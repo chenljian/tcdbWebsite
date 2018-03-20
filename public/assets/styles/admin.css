@@ -1,0 +1,39 @@
+.right-btn {
+    margin-right: 20px;
+}
+
+.writepost-wrap {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.box {
+    width: 800px;
+    margin-top: 15px;
+    background-color: #ffffff;
+    border-left: solid 4px #fff;
+    border-radius: 6px;
+    -webkit-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    -moz-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    -o-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+.confirm-message {
+
+}
+
+.form-horizontal .form-group {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.pull-right a {
+    margin-left: 10px;
+    margin-right: 10px;
+    float: right;
+}
+
+.pull-right p {
+    float: right;
+}

@@ -1,0 +1,81 @@
+doctype html
+html
+    head
+    link(rel='stylesheet', type='text/css', href='../assets/summernote/bootstrap.css')
+    script(src='../assets/summernote/jquery.js')
+    script(src='../assets/summernote/bootstrap.js')
+    link(rel='stylesheet', type='text/css', href='../assets/summernote/summernote.css')
+    link(rel='stylesheet', type='text/css', href='../assets/styles/admin.css')
+    script(src='../assets/summernote/summernote.js')
+    body
+        .container
+            .pull-right
+                p 管理员： #{currentAdmin}
+                a(href='/admin/logout') 登出
+                a(href='/admin/modifypassword') 修改密码
+                - if (currentAdmin == 'tcdbroot')
+                    a(href='/admin/signup') 添加管理员
+            h2 写文章
+            .form-group
+                input.form-control(type="text" id="title_en" value=post.title_en style="display: none")
+                label(for='category') 分类
+                select.form-control(id="category" style="width: 250px")
+                    - categories = ['newsdynamics', 'commdynamics', 'confinfo']
+                    each item in categories
+                        case item
+                            when 'newsdynamics'
+                                option(selected=post.category == item, value=item) 新闻动态
+                            when 'commdynamics'
+                                option(selected=post.category == item, value=item) 委员动态
+                            when 'confinfo'
+                                option(selected=post.category == item, value=item) 会议信息
+                br
+                label(for='date') 日期
+                input.form-control(type="text" id="date" value=post.date placeholder="日期(格式YYYYMMDD)" style="width: 250px")
+
+                br
+                label(for='title_cn') 文章标题
+                input.form-control(type="text" id="title_cn" value=post.title_cn style="width: 650px")
+
+                br
+                label(for='source') 信息来源
+                input.form-control(type='text' id='source' value=post.source placeholder='计算机学会数据库专委会' style='width: 650px')
+                input.form-control(type="text" id="content" value=post.content style="display: none")
+                input.form-control(type="text" id="olddate" value=post.date style="display: none")
+            #summernote
+            .pull-right
+                //button.btn.btn-primary.right-btn#save 保存
+                button.btn.btn-primary.right-btn#publish 发布
+        script.
+            $(document).ready(function () {
+
+                var $summernote = $('#summernote');
+                $summernote.summernote({
+                    height: 400
+                });
+
+                var content = $('#content').val();
+                $summernote.summernote('code', content);
+
+                $('#publish').on('click', function (e) {
+                    var article = {};
+                    article.title_en = $('#title_en').val();
+                    article.olddate = $('#olddate').val();
+                    article.title_cn = $('#title_cn').val();
+                    article.category = $('#category').val();
+                    article.date = $('#date').val();
+                    article.source = $('#source').val();
+                    article.content = $('#summernote').summernote('code');
+                    console.log(article);
+                    $.ajax({
+                        type: 'POST',
+                        data: JSON.stringify(article),
+                        url: '/admin/addpost',
+                        contentType: 'application/json'
+                    }).done(function (results) {
+                        if (results.success === 1) {
+                            window.location.href = '/admin/posts';
+                        }
+                    })
+                });
+            });

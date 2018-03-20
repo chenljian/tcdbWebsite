@@ -1,0 +1,105 @@
+doctype html
+html
+    head
+        link(rel='stylesheet', type='text/css', href='../assets/styles/bootstrap.min.css')
+        link(rel='stylesheet', type='text/css', href='../assets/styles/admin.css')
+        script(src="/assets/libs/jquery.min.js")
+        script(src="/assets/libs/bootstrap.min.js")
+
+    body
+        .container
+            .pull-right
+                p 管理员： #{currentAdmin}
+                a(href='/admin/logout') 登出
+                a(href='/admin/modifypassword') 修改密码
+                a(href='/admin') 主页
+                - if (userRole == 13 || userRole == 42)
+                    a(href='/admin/upload') 上传网页
+                - if (userRole == 42)
+                    a(href='/admin/signup') 添加管理员
+                a(href='/') 网站主站
+            h2 文章列表
+            ul.nav.nav-tabs
+                li.active
+                    a(data-toggle='tab' href='#newsdynamicstab') 新闻动态
+                li
+                    a(data-toggle='tab' href='#commdynamicstab') 委员动态
+                li
+                    a(data-toggle='tab' href='#confinfotab') 会议信息
+            .tab-content
+                #newsdynamicstab.tab-pane.fade.in.active
+                    table(style="text-align: center").table.table-bordered
+                        thead
+                            tr
+                                th.text-center 序号
+                                th.text-center 标题
+                                th.text-center 时间
+                                th.text-center(style='display: none') 英文名
+                                th.text-center 操作1
+                                th.text-center 操作2
+                        tbody
+                            - var index = 0;
+                            each item in newsdynamics_posts
+                                - index = index + 1;
+                                tr
+                                    td #{index}
+                                    td
+                                        a(href='/post-' + item.date + '-' + item.title_en) #{item.title_cn}
+                                    td #{item.date}
+                                    td(style='display: none') #{item.title_en}
+                                    td
+                                        a(href='/admin/updatepost?date=' + item.date + '&title_en=' + item.title_en) 修改
+                                    td.del(style="color: red;") 删除
+                #commdynamicstab.tab-pane.fade
+                    table(style="text-align: center").table.table-bordered
+                        thead
+                            tr
+                                th.text-center 序号
+                                th.text-center 标题
+                                th.text-center 时间
+                                th.text-center(style='display: none') 英文名
+                                th.text-center 操作1
+                                th.text-center 操作2
+                        tbody
+                            - var index = 0;
+                            each item in commdynamics_posts
+                                - index = index + 1;
+                                tr
+                                    td #{index}
+                                    td
+                                        a(href='/post-' + item.date + '-' + item.title_en) #{item.title_cn}
+                                    td #{item.date}
+                                    td(style='display: none') #{item.title_en}
+                                    td
+                                        a(href='/admin/updatepost?date=' + item.date + '&title_en=' + item.title_en) 修改
+                                    td.del(style="color: red;") 删除
+                #confinfotab.tab-pane.fade
+                    table(style="text-align: center; border").table.table-bordered
+                        thead
+                            tr
+                                th.text-center 序号
+                                th.text-center 标题
+                                th.text-center 时间
+                                th.text-center(style='display: none') 英文名
+                                th.text-center 操作1
+                                th.text-center 操作2
+                        tbody
+                            - var index = 0;
+                            each item in confinfo_posts
+                                - index = index + 1;
+                                tr
+                                    td #{index}
+                                    td
+                                        a(href='/post-' + item.date + '-' + item.title_en) #{item.title_cn}
+                                    td #{item.date}
+                                    td(style='display: none') #{item.title_en}
+                                    td
+                                        a(href='/admin/updatepost?date=' + item.date + '&title_en=' + item.title_en) 修改
+                                    td.del(style="color: red;") 删除
+
+
+
+            .pull-left
+                button.btn.btn-primary#add-new-post 添加新文章
+
+            script(src="/assets/js/adminposts.js")

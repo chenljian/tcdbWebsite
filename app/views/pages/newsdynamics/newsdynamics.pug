@@ -1,0 +1,20 @@
+extend ../../layout
+
+block content
+    .level1-wrap
+        .level1-content
+            h3 新闻动态
+            div.divider
+            .title-list-box
+                ul
+                    each post in posts
+                        - var url = '/post-' + post.date + '-' + post.title_en;
+                        li
+                            span #{post.date.slice(0, 4) + '-' + post.date.slice(4, 6) + '-' + post.date.slice(6, 8)}
+                            a(href=url) #{post.title_cn}
+            .title-pager
+                | 共#{posts.length}条，分1页，当前第1页
+                | &nbsp;&nbsp;<a href="#">最前页</a>
+                | <a href="#">上一页</a>
+                | <a href="#">下一页</a>
+                | <a href="#">最后页</a>

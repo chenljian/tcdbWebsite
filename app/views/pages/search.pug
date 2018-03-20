@@ -1,0 +1,13 @@
+extend ../layout
+
+block content
+    .level1-wrap
+        .level1-content
+            h3 搜索结果
+            .divider
+            .title-list-box
+                ul
+                    each item in results
+                        li
+                            - var url = '/post-' + item.date + '-' + item.title_en;
+                            a(href=url) #{item.title_cn}

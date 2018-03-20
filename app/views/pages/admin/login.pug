@@ -1,0 +1,29 @@
+doctype html
+html
+    head
+        link(rel='stylesheet', type='text/css', href='../assets/styles/bootstrap.min.css')
+        link(rel='stylesheet', type='text/css', href='../assets/styles/admin.css')
+        script(src="/assets/libs/jquery.min.js")
+        script(src="/assets/libs/bootstrap.min.js")
+    body
+        //- p #{hint}
+        form.form-horizontal(method="post", action="/admin/login")
+            center
+                h2 管理员认证
+            .form-group
+                .col-sm-4
+                    label.pull-right 用户名
+                .col-sm-4
+                    input.form-control(type="text", name="username")
+            .form-group
+                .col-sm-4
+                    label.pull-right 密码
+                .col-sm-4
+                    input.form-control(type="password", name="password")
+            .form-group
+                .col-sm-4
+                    label.pull-right 提示信息
+                .col-sm-4
+                    p(style='color: red') #{hint}
+            center.form-group
+                button.btn.btn-primary(type="submit") 登录

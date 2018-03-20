@@ -1,0 +1,67 @@
+extend ../../layout
+
+block content
+    .level1-wrap
+        .level1-left-panel
+            h3 DSE期刊
+            ul
+                li
+                    a(href='/dseintro') DSE简介
+                li
+                    a(href='/dseeditors') DSE编委会
+                li.active
+                    a(href='/dsepaperlist') DSE论文
+        .level1-right-content
+            h3 All Volumes & Issues
+
+            .divider
+            br
+            a(href='http://link.springer.com/journal/volumesAndIssues/41019') Volume 1 March 2016
+            #displayPaperList(data-toggle="popover" data-placement="bottom") Paper List
+            #paperList
+                ul
+                    li
+                        .paper-title On the Meaningfulness of "Big Data Quality" (Invited Paper)
+                        .paper-author Donatella Firmani, Massimo Mecella, Monica Scannapieco, Carlo Batini Pages 6-20
+                        br
+                    li
+                        .paper-title Big Data Privacy: Challenges to Privacy Principles and Models
+                        .paper-author Jordi Soria-Comas, Josep Domingo-Ferrer Pages 21-28
+                        br
+                    li
+                        .paper-title Clustering Embedded Approaches for Efficient Information Network Inference
+                        .paper-author Qingbo Hu, Sihong Xie, Shuyang Lin, Senzhang Wang, Philip S. Yu Pages 29-40
+                        br
+                    li
+                        .paper-title POS: A High-Level System to Simplify Real-Time Stream Application Development on Storm
+                        .paper-author Bin Cui, Jie Jiang, Quanlong Huang, Ying Xu, Yanjun Gui, Wenyu Zhang Pages 41-50
+                        br
+                    li
+                        .paper-title Landmark-Based Route Recommendation with Crowd Intelligence
+                        .paper-author Bolong Zheng, Han Su, Kai Zheng, Xiaofang Zhou
+                        br
+                    li
+                        .paper-title A Data-Driven Evaluation for Insider Threats
+                        .paper-author Yuqing Sun, Haoran Xu, Elisa Bertino, Chao Sun
+                        br
+                    li
+                        .paper-title UniClip: Leveraging Web Search for Universal Clipping of Articles on Mobile
+                        .paper-author Ruihua Song, Kazutoshi Umemoto, Jian-Yun Nie, Xing Xie, Katsumi Tanaka, Yong Rui
+                        br
+                    li
+                        .paper-title Software-Defined Storage-Based Data Infrastructure Supportive of Hydroclimatology Simulation Containers: A Survey
+                        .paper-author Wonjun Lee, Sanjiv Kumar
+                        br
+                    li
+                        .paper-title A Storytelling-Driven Framework for Cultural Heritage Dissemination
+                        .paper-author Stefano Valtolina
+    script.
+        var $displayPaperList = $('#displayPaperList');
+        $displayPaperList.click(function () {
+            $('#paperList').toggle();
+        });
+        $displayPaperList.hover(function () {
+            $displayPaperList.popover('show');
+        }, function () {
+            $displayPaperList.popover('hide');
+        });

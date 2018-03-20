@@ -1,0 +1,14 @@
+extend ../layout
+
+block content
+    .level2-wrap
+        .post
+            .post-title
+                | !{post.title_cn}
+            .post-info
+                small 时间:
+                | !{post.date.slice(0, 4) + '-' + post.date.slice(4, 6) + '-' + post.date.slice(6, 8)}
+                small 来源:
+                | !{post.source}
+            .post-content
+                | !{post.content}

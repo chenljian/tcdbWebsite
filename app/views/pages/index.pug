@@ -1,0 +1,95 @@
+extend ../layout
+
+block content
+    .wrap-content
+        .left-content
+            #slider
+                a(href="/post-20170114-p8")
+                    img(src="assets/images/upload/20170114-2.jpg")
+                a(href="/post-20160727-p1")
+                    img(src="assets/images/upload/20160727-5.jpg")
+                a(href="/post-20151027-p1")
+                    img(src="assets/images/upload/20151027-1.jpg")
+                a(href="/post-20151027-p1")
+                    img(src="assets/images/upload/20151027-5.jpg")
+                .bullets
+                    span.circle
+                    span.circle
+                    span.circle
+                    span.circle
+
+            .spec-recommends
+                .spec-recommends-title
+                    h3 特别推荐
+                .spec-recommends-box
+                    ul
+                        each post in special_posts
+                            - var url = '/post-' + post.date + '-' + post.title_en;
+                            li
+                                span #{post.date}
+                                a(href=url) #{post.title_cn}
+
+        .middle-content
+            h3 数据库专委会蝉联CCF优秀专委
+
+            p 各位数据库专委会委员和各界同仁，
+            p 2017年1月14日，中国计算机学会(CCF)颁奖大会在北京隆重举行，数据库专委会再次蝉联优秀专委。根据《CCF专业委员会评估办法》，每年优秀专委会的数量不超过学会专委会总数的六分之一（本年度一共5个专委）；在这样竞争激烈的环境下，数据库专委能够再次评优，这是我们专委会老师们共同努力的结晶，<a href='/post-20170114-p8'>[查看全文]</a>
+            a(href='/post-20170114-p8') <img src='assets/images/upload/20170114-1.jpg'>
+        .right-content
+            input#s-content(type="text")
+            input#search(type="submit" value="搜索")
+            script(src="assets/js/search.js")
+            .news-dynamics
+                .news-dynamics-title
+                    a(href='/newsdynamics') >>
+                    h3 新闻动态
+                .news-dynamics-box
+                    ul
+                        each post in newsdynamics_posts
+                            - var url = '/post-' + post.date + '-' + post.title_en;
+                            li
+                                span #{post.date}
+                                a(href=url) #{post.title_cn}
+
+            .conf-information
+                .conf-information-title
+                    a(href='/confinfo') >>
+                    h3 会议信息
+                .conf-information-box
+                    ul
+                        each post in confinfo_posts
+                            - var url = '/post-' + post.date + '-' + post.title_en;
+                            li
+                                span #{post.date}
+                                a(href=url) #{post.title_cn}
+
+            .committee-dynamics
+                .committee-dynamics-title
+                    a(href='commdynamics') >>
+                    h3 委员动态
+                .committee-dynamics-box
+                    ul
+                        each post in commdynamics_posts
+                            - var url = '/post-' + post.date + '-' + post.title_en;
+                            li
+                                span #{post.date}
+                                a(href=url) #{post.title_cn}
+    .friend-links
+        h3 友情链接
+        .link-images
+            .link-image
+                a(href='http://www.ccf.org.cn')
+                    span 中国计算机学会
+            .link-image
+                a(href='http://sigmod.org')
+                    span ACM-SIGMOD
+            .link-image
+                a(href='http://www.vldb.org')
+                    span VLDB Foundation
+            .link-image
+                a(href='http://www.dbsj.org')
+                    span DBSJ
+            .link-image
+                a(href='http://www.hkws.org/hkws')
+                    span HKWS
+    script(src="assets/js/slidesetting.js")

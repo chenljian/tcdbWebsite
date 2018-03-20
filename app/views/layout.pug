@@ -1,0 +1,11 @@
+doctype html
+html
+    head
+        include ./include/head
+        title #{title}
+    body
+        .wrap-all
+            include ./include/top
+            include ./include/header
+            block content
+            include ./include/footer

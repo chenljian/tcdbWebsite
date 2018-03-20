@@ -1,0 +1,241 @@
+extend ../../layout
+
+
+block content
+    include ../data/members
+    include ../data/communicatemembers
+    include ../data/honormembers
+    include ../data/seniormembers.pug
+    .level1-wrap
+        .level1-left-panel
+            h3 专业委员会
+            ul
+                li
+                    a(href='#intro') 专委会介绍
+                li
+                    a(href='#leaders') 专委会领导
+                li
+                    a(href='#standingcommittee') 常务委员
+                li
+                    a(href='#seniorcommittee') 资深委员
+                li
+                    a(href='#honorcommittee') 荣誉委员
+                li
+                    a(href='#committee') 委员
+                li
+                    a(href='#communicatecommittee') 通讯委员
+        .level1-right-content
+            div(style="text-align: center;")
+                h3 中国计算机学会数据库专业委员会
+                h3 （缩写 CCF TCDB）
+            .divider
+            // 设置锚点
+            a(name='intro')
+            p 数据库专业委员会是根据我国近年来数据库领域学术研究和应用发展的需要，在原数据库学组基础上建立的二级学术组织，受中国计算机学会的直接领导，于1999年 8月24日在兰州大学召开的第十六届全国数据库学术会议上正式成立。专委会的任务包括：组织开展国内外学术活动，活跃学术思想，跟踪世界先进技术的动态，加强合作；致力于提高我国数据库技术水平，跟上技术发展步伐；开展技术咨询服务；引导、推进我国数据库技术的应用，不断提升我国数据库应用的水平，使之更好地为我国信息化建设服务；发现和培养数据库专门人才，组织各种高级研讨班；加强与国际同行的交流与合作，加强同台、港、澳的联系，促进相互之间的交流。
+            .divider
+            // 设置锚点
+            a(name='leaders')   
+            .duty 主 任
+            .member
+                .member-img
+                    img(height='100px',width="80",src='assets/images/people/duxiaoyong.jpg')
+                .member-content
+                    div 杜小勇　中国人民大学教授
+                    div duyong@ruc.edu.cn
+                    div [个人主页]
+            .divider
+            .duty 秘书长
+            .member
+                .member-img
+                    img(height='100px',width="80",src='assets/images/people/cuibin.jpg')
+                .member-content
+                    div 崔　斌　北京大学研究员
+                    div Bin.cui@pku.edu.cn
+                    div [个人主页]
+            .divider
+            .duty 副主任（按姓氏拼音排序）
+            .member
+                .member-img
+                    img(height='100px',width="80",src='assets/images/people/gaohong.jpg')
+                .member-content
+                    div 高　宏 哈尔滨工业大学教授
+                    div Honggao@hit.edu.cn
+                    div [个人主页]
+            .member
+                .member-img
+                    img(height='100px',width="80",src='assets/images/people/lizhanhuai.jpg')
+                .member-content
+                    div 李战怀 西北工业大学教授
+                    div lizhh@nwpu.edu.cn
+                    div [ 个人主页 ]
+            .member
+                .member-img
+                    img(height='100px',width="80",src='assets/images/people/pengzhiyong.jpg')
+                .member-content
+                    div 彭智勇 武汉大学教授
+                    div peng@whu.edu.cn
+                    div [ 个人主页 ]
+            .member
+                .member-img
+                    img(height='100px',width="80",src='assets/images/people/wangguoren.jpg')
+                .member-content
+                    div 王国仁 东北大学教授
+                    div wanggr@mail.neu.edu.cn
+                    div [ 个人主页 ]
+            .member
+                .member-img
+                    img(height='100px',width="80",src='assets/images/people/zhouaoying.jpg')
+                .member-content
+                    div 周傲英 华东师范大学教授高　
+                    div ayzhou@sei.ecnu.edu.cn
+                    div [ 个人主页 ]
+            // 设置锚点
+            a(name='standingcommittee')
+            .divider
+            .duty 常务委员（按姓氏拼音排序）
+            table
+                tbody
+                    tr
+                        td(width="10") 
+                        td(width="80") 陈　刚
+                        td(width="270") 浙江大学
+                        td(width="300") cg@zju.edu.cn
+                    tr
+                        td(width="10")
+                        td(width="80") 陈　红
+                        td(width="270") 中国人民大学
+                        td(width="300") chong@ruc.edu.cn
+                    tr
+                        td(width="10") 
+                        td(width="80") 高　军
+                        td(width="270") 北京大学信息科学技术学院
+                        td(width="300") gaojun@pku.edu.cn
+                    tr
+                        td(width="10")
+                        td(width="80") 李　青
+                        td(width="270") 香港城市大学教授
+                        td(width="300") itqli@cityu.edu.hk
+                    tr
+                        td(width="10")
+                        td(width="80") 李国徽
+                        td(width="270") 华中科技大学教授
+                        td(width="300") guohuili@hust.edu.cn
+                    tr
+                        td(width="10") 
+                        td(width="80") 李国良
+                        td(width="270") 清华大学计算机系
+                        td(width="300") 1iguo1iang@tsinghua.edu.cn
+                    tr
+                        td(width="10") 
+                        td(width="80") 马　帅
+                        td(width="270") 北京航空航天大学计算机学院
+                        td(width="300") mashuai@buaa.edu.cn
+                    tr
+                        td(width="10") 
+                        td(width="80") 毛　睿
+                        td(width="270") 深圳大学计算机与软件学院
+                        td(width="300") mao@szu.edu.cn
+                    tr
+                        td(width="10") 
+                        td(width="80") 钱卫宁
+                        td(width="270") 华东师范大学软件学院
+                        td(width="300") wnqian@sei.ecnu.edu.cn
+                    tr
+                        td(width="10") 
+                        td(width="80") 尚学群
+                        td(width="270") 西北工业大学
+                        td(width="300") shang@nwpu.edu.cn
+                    tr
+                        td(width="10") 
+                        td(width="80") 申德荣
+                        td(width="270") 东北大学教授
+                        td(width="300") shendr@mail.neu.edu.cn
+                    tr
+                        td(width="10") 
+                        td(width="80") 王宏志
+                        td(width="270") 哈尔滨工业大学副教授
+                        td(width="300") wangzh@hit.edu.cn
+                    tr
+                        td(width="10") 
+                        td(width="80") 张志强
+                        td(width="270") 哈尔滨工程大学教授
+                        td(width="300") zqzhang@hrbeu.edu.cn
+            // 设置锚点
+            a(name='seniorcommittee')
+            .divider
+            .duty 资深委员（按姓氏拼音排序）
+            table
+                tbody
+                    - var tdindex = 1
+                    each item in seniormembers
+                        case tdindex
+                            when 1
+                                td(width="10") 
+                                td(width="80") #{item}
+                            when 2
+                                td(width="270") #{item}
+                            when 3
+                                td(width="300") #{item}
+                        - tdindex++
+                        if tdindex == 4
+                            tr
+                            - tdindex = 1
+            // 设置锚点
+            a(name='committee')
+            .divider
+            .duty 委　员（按姓氏拼音排序）
+            table
+                tbody
+                    - var tdindex = 1
+                    each item in committeemembers
+                        case tdindex
+                            when 1
+                                td(width="10")
+                                td(width="80") #{item}
+                            when 2
+                                td(width="270") #{item}
+                            when 3
+                                td(width="300") #{item}
+                        - tdindex++
+                        if tdindex == 4
+                            tr
+                            - tdindex = 1
+            // 设置锚点
+            a(name='honorcommittee')
+            .divider
+            .duty 荣誉委员（按姓氏拼音排序）
+            table
+                tbody
+                    - var tdindex = 1
+                    each item in honormembers
+                        case tdindex
+                            when 1
+                                td(width="10")
+                                td(width="80") #{item}
+                            when 2
+                                td(width="270") #{item}
+                            when 3
+                                td(width="300") #{item}
+                        - tdindex++
+                        if tdindex == 4
+                            tr
+                            - tdindex = 1
+            a(name='communicatecommittee')
+            .divider
+            .duty 通讯委员（按姓氏拼音排序）
+            table
+                tbody
+                    - var tdindex = 1
+                    each item in communicatemembers
+                        case tdindex
+                            when 1
+                                td(width="10")
+                                td(width="80") #{item}
+                            when 2
+                                td(width="270") #{item}
+                            when 3
+                                td(width="300") #{item}
+                        - tdindex++
+                        if tdindex == 4
+                            tr
+                            - tdindex = 1

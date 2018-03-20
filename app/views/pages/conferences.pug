@@ -1,0 +1,24 @@
+extend ../layout
+
+block content
+    .level1-wrap
+        .level1-content
+            - var conference_names = ['APWeb (Asia Pacific Web Conference)', 'NDBC (National DataBase Conference of China)', 'WAIM (International Conference on Web-Age Information Management)']
+            - var conference_shorts = ['apweb', 'ndbc', 'waim']
+            - var from_year = 2016
+            - var to_year = 2004
+            - for (var k = 0; k < 3; k++)
+                h3 #{conference_names[k]}
+                .divider
+                    table.links-table
+                        tbody
+                            tr
+                                - for (var i = from_year; i >= 2007; i--)
+                                    td
+                                        - var url = conference_shorts[k] + '/' + conference_shorts[k] + i
+                                        a(href=url) #{i}
+                            tr
+                                - for (var i = 2006; i >= to_year; i--)
+                                    td
+                                        - var url = conference_shorts[k] + '/' + conference_shorts[k] + i
+                                        a(href=url) #{i}
