@@ -26,8 +26,4 @@ username: tcdbroot
 password: d0ntte11y0u
 
 ### Pages
-login: /admin/login
-/admin/posts
-
-### Note
-目前修改文章内容的功能，Google Chome和IE没问题，但是Firefox会出现内容渲染的bug
+login: /admin/login/admin/posts
