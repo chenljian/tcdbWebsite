@@ -1,5 +1,6 @@
 const mongoose = require('mongoose');
 
+//define database schema
 var PostSchema = new mongoose.Schema({
     category: String,
     source: String,
