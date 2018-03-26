@@ -2,7 +2,7 @@ const express = require('express');
 const app = express();
 const mongoose = require('mongoose');
 const path = require('path');
-const port = 80;
+const port = 2333;
 const bodyParser = require("body-parser");
 const session = require('express-session');
 const mongoStore = require('connect-mongo')(session);
@@ -23,14 +23,19 @@ app.use(session({
 }));
 
 // setting
+//set static dir
 app.use(express.static(path.join(__dirname, 'public')));
 app.use(express.static('/root/conferences'));
+
 app.use(function (req, res, next) {
     logger.info("pageview " + req.connection.remoteAddress + " " + req.originalUrl);
     next();
 }, express.static('/root/dev'));
+
+//set tempalte engine
 app.set('view engine', 'pug');
 app.set('views', './app/views/pages/');
+
 app.use(bodyParser.json({limit: '50mb'}));
 app.use(bodyParser.urlencoded({limit: '50mb', extended: true}));
 app.use(bodyParser.json());

@@ -179,15 +179,12 @@ exports.POSTmodifyPassword = function (req, res, next) {
 };
 
 //midware for user signin and admin
-
 exports.loginRequired = function (req, res, next) {
     var admin = req.session.admin;
-
     if (!admin) {
         req.session.hint = "请登录";
         return res.redirect('/admin/login');
     }
-
     next();
 };
 

@@ -7,7 +7,10 @@ $ pip install pymongo
 $ npm install
 $ python makedocs.py
 ```
-
+##start mongod 
+```
+mongod --dbpath ./mongodata/db
+```
 ## Deploy Update!!!
 下面把admin drop掉，然后重新插入带有管理员权限等级的数据
 ```

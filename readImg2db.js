@@ -3,7 +3,6 @@ var mongoose = require('mongoose');
 var fs = require('fs');
 mongoose.connect('mongodb://localhost/db');
 var db = mongoose.connection;
-//db.people.drop();
 
 var PersonSchema =  new mongoose.Schema({
 	//id: String,

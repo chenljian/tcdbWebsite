@@ -7,6 +7,7 @@ var PostSchema = new mongoose.Schema({
     title_en: String,
     date: String,
     special_recomm: Boolean,
+    news_cover: String,
     title_cn: String,
     content: String,
     meta: {
