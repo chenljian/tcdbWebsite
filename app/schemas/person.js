@@ -9,6 +9,7 @@ var PersonSchema = new mongoose.schema({
 	email: String,
 	homePage: String,
 	position: String,
+	introduction: String
 });
 
 module.exports = PersonSchema;

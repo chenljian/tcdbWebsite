@@ -1,21 +1,45 @@
 const assert = require('assert');
 const Post = require("../models/post");
+const Person = require("../models/post");
 
 var compareArticleDate = function (p1, p2) {
     return parseInt(p2.date) - parseInt(p1.date);
 };
 
 exports.commintro = function (req, res) {
-    res.render('commintro/index', {
-        title: "专委会介绍"
+    Person.find().exec(function(err, cards){
+        assert.equal(err, null);
+        res.render('commintro/index', {
+            title: "专委会介绍",
+            director: cards.filter(function(card){
+                return card.position == "Director";
+            }),
+            secretary_general: cards.filter(function(card){
+                return card.position == "SecretaryGeneral";
+            }),
+            deputy_director: cards.filter(function(card){
+                return card.position == "DeputyDirector";
+            }).sort(name),
+            standing_committe: cards.filter(function(card){
+                return card.position == "StandingCommitte";
+            }).sort(name),
+            senior_committe: cards.filter(function(card){
+                return card.position == "SeniorCommitte";
+            }).sort(name),
+            honorary_committe: cards.filter(function(card){
+                return card.position == "HonoraryCommitte";
+            }).sort(name), 
+            committe: cards.filter(function(card){
+                return card.position == "Committe";
+            }).sort(name),
+            communicate_committe: cards.filter(function(card){
+                return card.position == "CommunicateCommitte";
+            }).sort(name)
+        }); 
     });
+    
 };
 
-exports.honormember = function (req, res) {
-    res.render('commintro/honormember', {
-        title: "荣誉委员"
-    });
-};
 
 exports.contact = function (req, res) {
     res.render('contact/contact', {

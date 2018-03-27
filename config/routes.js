@@ -15,7 +15,7 @@ module.exports = function (app) {
 
     app.get('/', Index.index);
     app.get('/commintro', Index.commintro);
-    app.get('/honormember', Index.honormember);
+   // app.get('/honormember', Index.honormember);
     app.get('/contact', Index.contact);
     app.get('/resources', Index.resources);
     app.get('/opensource', Index.opensource);
@@ -46,7 +46,7 @@ module.exports = function (app) {
     app.post('/admin/modifypassword', Admin.loginRequired, Admin.POSTmodifyPassword);
     app.get('/admin/logout', Admin.loginRequired, Admin.logout);
 
-    // editor
+    // editor post
 
     app.get('/admin/posts', Admin.editorLoginRequired, Post.list);
     app.get('/admin/addpost', Admin.editorLoginRequired, Post.GETadd);
@@ -55,6 +55,12 @@ module.exports = function (app) {
     app.delete('/admin/posts/', Admin.editorLoginRequired, Post.delete);
     app.get('/admin/index', Admin.loginRequired, Admin.index);
     app.get('/admin', Admin.loginRequired, Admin.index);
+
+    app.get('/admin/persons', Admin.editorLoginRequired, Person.list);
+    app.get('/admin/addperson' Admin.editorLoginRequired, Person.GETadd);
+    app.get('/admin/updateperson', Admin.editorLoginRequired, Person.update);
+    app.post('/admin/addperson', Admin.editorLoginRequired, Person.PERSONadd);
+    app.delete('/admin/persons', Admin.editorLoginRequired. Person.delete);
 
 
     // superadmin
