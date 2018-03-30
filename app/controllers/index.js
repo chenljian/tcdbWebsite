@@ -1,4 +1,4 @@
-const assert = require('assert');
+﻿const assert = require('assert');
 const Post = require("../models/post");
 const Person = require("../models/post");
 
@@ -141,13 +141,13 @@ exports.index = function (req, res) {
             }).sort(compareArticleDate).slice(0, 8),
             newsdynamics_posts: docs.filter(function (doc) {
                 return doc.category == 'newsdynamics';
-            }).sort(compareArticleDate).slice(0, 4),
+            }).sort(compareArticleDate).slice(0, 6),
             commdynamics_posts: docs.filter(function (doc) {
                 return doc.category == 'commdynamics';
-            }).sort(compareArticleDate).slice(0, 5),
+            }).sort(compareArticleDate).slice(0, 6),
             confinfo_posts: docs.filter(function (doc) {
                 return doc.category == 'confinfo';
-            }).sort(compareArticleDate).slice(0, 4)
+            }).sort(compareArticleDate).slice(0, 6)
         });
     });
 };
