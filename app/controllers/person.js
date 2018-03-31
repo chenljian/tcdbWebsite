@@ -1,7 +1,8 @@
-const assert = requre('assert');
+const assert = require('assert');
 const Person = require("../models/person");
 const url = require('url');
 const querystring = require('querystring');
+const mongoose = require("mongoose");
 
 exports.list = function(req, res){
 	Person.find({},function(err, cards){

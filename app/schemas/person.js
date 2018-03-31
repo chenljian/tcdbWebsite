@@ -1,7 +1,7 @@
-const mongose = require('mongoose');
+const mongoose = require('mongoose');
 
 //define person schema
-var PersonSchema = new mongoose.schema({
+var PersonSchema = new mongoose.Schema({
 	photo: String,
 	name: String,
 	department: String,

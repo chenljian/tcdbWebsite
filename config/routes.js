@@ -1,5 +1,6 @@
 const Index = require('../app/controllers/index');
 const Post = require("../app/controllers/post");
+const Person = require("../app/controllers/person");
 const Admin = require("../app/controllers/admin");
 const logger = require("../log");
 
@@ -57,10 +58,10 @@ module.exports = function (app) {
     app.get('/admin', Admin.loginRequired, Admin.index);
 
     app.get('/admin/persons', Admin.editorLoginRequired, Person.list);
-    app.get('/admin/addperson' Admin.editorLoginRequired, Person.GETadd);
+    app.get('/admin/addperson', Admin.editorLoginRequired, Person.GETadd);
     app.get('/admin/updateperson', Admin.editorLoginRequired, Person.update);
     app.post('/admin/addperson', Admin.editorLoginRequired, Person.PERSONadd);
-    app.delete('/admin/persons', Admin.editorLoginRequired. Person.delete);
+    app.delete('/admin/persons', Admin.editorLoginRequired, Person.delete);
 
 
     // superadmin
