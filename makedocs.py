@@ -5,6 +5,80 @@ import base64
 client = pymongo.MongoClient("localhost", 27017)
 db = client.db
 tcdb = db.tcdb
+personCards = db.personCards
+
+personCards.delete_many({})
+cards = [{
+    "photo": base64.b64encode(open('./public/assets/images/people/duxiaoyong.jpg')),
+    "name": "杜小勇",
+    "department": "中国人民大学",
+    "jobTitle": "教授",
+    "email": "duyong@ruc.edu.cn",
+    "homePage":,
+    "position": "主任",
+    "introduction":,       
+    },
+    {
+    "photo": base64.b64encode(open('./public/assets/images/people/cuibin.jpg')),
+    "name": "崔　斌",
+    "department": "北京大学",
+    "jobTitle": "研究员",
+    "email": "Bin.cui@pku.edu.cn",
+    "homePage":,
+    "position": "秘书长",
+    "introduction":,     
+    },
+    {
+    "photo": base64.b64encode(open('./public/assets/images/people/gaohong.jpg')),
+    "name": "高　宏",
+    "department": "哈尔滨工业大学",
+    "jobTitle": "教授",
+    "email": "Honggao@hit.edu.cn",
+    "homePage":,
+    "position": "副主任",
+    "introduction":,     
+    },
+    {
+    "photo": base64.b64encode(open('./public/assets/images/people/lizhanhuai.jpg')),
+    "name": "李战怀",
+    "department": "西北工业大学",
+    "jobTitle": "教授",
+    "email": "lizhh@nwpu.edu.cn",
+    "homePage":,
+    "position": "副主任",
+    "introduction":,     
+    },
+    {
+    "photo": base64.b64encode(open('./public/assets/images/people/pengzhiyong.jpg')),
+    "name": "彭智勇",
+    "department": "武汉大学",
+    "jobTitle": "教授",
+    "email": "peng@whu.edu.cn",
+    "homePage":,
+    "position": "副主任",
+    "introduction":,     
+    },
+    {
+    "photo": base64.b64encode(open('./public/assets/images/people/wangguoren.jpg')),
+    "name": "王国仁",
+    "department": "东北大学",
+    "jobTitle": "教授",
+    "email": "wanggr@mail.neu.edu.cn",
+    "homePage":,
+    "position": "副主任",
+    "introduction":,     
+    },
+    {
+    "photo": base64.b64encode(open('./public/assets/images/people/zhouaoying.jpg')),
+    "name": "周傲英",
+    "department": "华东师范大学",
+    "jobTitle": "教授",
+    "email": "ayzhou@sei.ecnu.edu.cn",
+    "homePage":,
+    "position": "副主任",
+    "introduction":,     
+    },
+]
 
 tcdb.delete_many({})
 
