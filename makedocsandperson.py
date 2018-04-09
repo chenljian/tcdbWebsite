@@ -140,35 +140,1180 @@ cards = [{
     "email": "shang@nwpu.edu.cn",
     "position": "StandingCommitte",
     },
+    {
+    "name": "申德荣",
+    "department": "东北大学教授",
+    "email": "shendr@mail.neu.edu.cn",
+    "position": "StandingCommitte"
+    },
+    {
+    "name": "王宏志",
+    "department": "哈尔滨工业大学副教授",
+    "email": "wangzh@hit.edu.cn",
+    "position": "StandingCommitte"
+    },
+    {
+    "name": "张志强",
+    "department": "哈尔滨工程大学教授",
+    "email": "zqzhang@hrbeu.edu.cn",
+    "position": "StandingCommitte"
+    },
     #####
     {
     "name": "何新贵",
-    "department": "北京大学",
-    "jobTitle": "教授",
+    "department": "北京大学教授",
     "email": "hexingui@pku.edu.cn",
-    "position": "SeniorCommitte",
+    "position": "SeniorCommitte"
+    },
+    {
+    "name": "刘连芳",
+    "department": "广西计算中心",
+    "email": "lianfangl@yeah.net",
+    "position": "SeniorCommitte"
+    },
+    {
+    "name": "唐常杰",
+    "department": "四川大学教授",
+    "email": "cjtang@scu.edu.cn",
+    "position": "SeniorCommitte"
+    },
+    {
+    "name": "王　珊",
+    "department": "中国人民大学",
+    "email": "swang@ruc.edu.cn",
+    "position": "SeniorCommitte"
+    },
+    {
+    "name": "杨冬青",
+    "department": "北京大学教授",
+    "email": "dqyang@pku.edu.cn",
+    "position": "SeniorCommitte"
+    },
+    {
+    "name": "周立柱",
+    "department": "清华大学教授",
+    "email": "dcszlz@tsinghua.edu.cn",
+    "position": "SeniorCommitte"
     },
     #####
     {
     "name": "何守才",
     "department": "上海第二工业大学计算机与信息学院",
     "email": "hesc111@163.com",
-    "position": "HonoraryCommitte",
+    "position": "HonoraryCommitte"
+    },
+    {
+    "name": "黄上腾",
+    "department": "上海交通大学计算机科学与工程系",
+    "email": "royhuang@guomai.sh.cn",
+    "position": "HonoraryCommitte"
+    },
+    {
+    "name": "李德毅",
+    "department": "总参通信部",
+    "email": "kxwei9402@sina.com/leedeyi@nlsde.buaa.edu.cn",
+    "position": "HonoraryCommitte"
+    },
+    {
+    "name": "李昭原",
+    "department": "北京航空航天大学",
+    "email": "Lizy2026@sina.com",
+    "position": "HonoraryCommitte"
+    },
+    {
+    "name": "罗晓沛",
+    "department": "中科院研究生院",
+    "email": "luoxp@eyou.com",
+    "position": "HonoraryCommitte"
+    },
+    {
+    "name": "马应章",
+    "department": "北京华北计算所",
+    "email": "mayzem@sina.com/myz@bj613.com",
+    "position": "HonoraryCommitte"
+    },
+    {
+    "name": "马玉书",
+    "department": "北京石油大学",
+    "email": "mayushu@mail.china.com",
+    "position": "HonoraryCommitte"
+    },
+    {
+    "name": "瞿兆荣",
+    "department": "华东计算机所",
+    "email": "admieci@stn.sh.cn",
+    "position": "HonoraryCommitte"
+    },
+    {
+    "name": "邵佩英",
+    "department": "中科院研究生院",
+    "email": "shaopy@gucas.ac.cn",
+    "position": "HonoraryCommitte"
+    },
+    {
+    "name": "沈钧毅",
+    "department": "西安交通大学",
+    "email": "jyshen@xjtu.edu.cn",
+    "position": "HonoraryCommitte"
+    },
+    {
+    "name": "施伯乐",
+    "department": "复旦大学计算机与信息技术系",
+    "email": "bshi@fudan.edu.cn",
+    "position": "HonoraryCommitte"
+    },
+    {
+    "name": "孙志挥",
+    "department": "东南大学计算机系",
+    "email": "sunkity@jlonline.com",
+    "position": "HonoraryCommitte"
+    },
+    {
+    "name": "唐世渭",
+    "department": "北京大学信息科学技术学院",
+    "email": "tsw@pku.edu.cn",
+    "position": "HonoraryCommitte"
+    },
+    {
+    "name": "童頫",
+    "department": "上海大学计算机系",
+    "email": "ftong@bigfoot.com",
+    "position": "HonoraryCommitte"
+    },
+    {
+    "name": "王洪水",
+    "department": "上海宝钢技术中心自动化所",
+    "email": "hswang@baosteel.com",
+    "position": "HonoraryCommitte"
+    },
+    {
+    "name": "徐洁磐",
+    "department": "南京大学计算机系",
+    "email": "xujiepan@nju.edu.cn",
+    "position": "HonoraryCommitte"
+    },
+    {
+    "name": "徐鲁溪",
+    "department": "国家信息中心",
+    "email": "",
+    "position": "HonoraryCommitte"
+    },
+    {
+    "name": "薛永生",
+    "department": "厦门大学计算机科学系",
+    "email": "ysxue@jingxian.xmu.edu.cn",
+    "position": "HonoraryCommitte"
+    },
+    {
+    "name": "张作民",
+    "department": "光大电脑公司",
+    "email": "",
+    "position": "HonoraryCommitte"
+    },
+    {
+    "name": "郑振楣-何炎祥",
+    "department": "武汉大学计算机系",
+    "email": "yxhe@whu.edu.cn",
+    "position": "HonoraryCommitte"
+    },
+    {
+    "name": "周龙骧",
+    "department": "中科院数学所",
+    "email": "lxzhou@math.ac.cn",
+    "position": "HonoraryCommitte"
     },
     #####
     {
     "name": "柏文阳",
     "department": "南京大学",
     "email": "wyb@nju.edu.cn",
-    "position": "Committe",
+    "position": "Committe"
+    },
+    {
+    "name": "蔡　毅",
+    "department": "华南理工大学副教授",
+    "email": "ycai@scut.edu.cn",
+    "position": "Committe"
+    },
+    {
+    "name": "曹　朝",
+    "department": "北京理工大学计算机学院",
+    "email": "caozhao@bit.edu.cn",
+    "position": "Committe"
+    },
+    {
+    "name": "陈　健",
+    "department": "华南理工大学",
+    "email": "ellachen@scut.edu.cn",
+    "position": "Committe"
+    },
+    {
+    "name": "陈　雷",
+    "department": "香港科技大学计算机科学与工程系",
+    "email": "leichen@ust.hk",
+    "position": "Committe"
+    },
+    {
+    "name": "陈　群",
+    "department": "西北工业大学",
+    "email": "chenbenben@nwpu.edu.cn",
+    "position": "Committe"
+    },
+    {
+    "name": "陈恩红",
+    "department": "中国科学技术大学教授",
+    "email": "cheneh@ustc.edu.cn",
+    "position": "Committe"
+    },
+    {
+    "name": "陈世敏",
+    "department": "中国科学院计算技术研究所研究员",
+    "email": "chensm@ict.ac.cn",
+    "position": "Committe"
+    },
+    {
+    "name": "陈晓云",
+    "department": "兰州大学教授",
+    "email": "chenxy@lzu.edu.cn",
+    "position": "Committe"
+    },
+    {
+    "name": "陈跃国",
+    "department": "中国人民大学信息学院",
+    "email": "chenyueguo@ruc.edu.cn",
+    "position": "Committe"
+    },
+    {
+    "name": "程思瑶",
+    "department": "哈尔滨工业大学",
+    "email": "csy@hit.edu.cn",
+    "position": "Committe"
+    },
+    {
+    "name": "崔立真",
+    "department": "山东大学计算机学院助理院长",
+    "email": "clz@sdu.edu.cn",
+    "position": "Committe"
+    },
+    {
+    "name": "党德鹏",
+    "department": "北京师范大学",
+    "email": "ddepeng@bnu.edu.cn",
+    "position": "Committe"
+    },
+    {
+    "name": "丁治明",
+    "department": "中科院软件研究所",
+    "email": "zhiming@iscas.ac.cn",
+    "position": "Committe"
+    },
+    {
+    "name": "段　磊",
+    "department": "四川大学教师",
+    "email": "leiduan@scu.edu.cn",
+    "position": "Committe"
+    },
+    {
+    "name": "冯　铃",
+    "department": "清华大学教授",
+    "email": "fengling@tsinghua.edu.cn",
+    "position": "Committe"
+    },
+    {
+    "name": "冯建华",
+    "department": "清华大学副教授",
+    "email": "fengjh@tsinghua.edu.cn",
+    "position": "Committe"
+    },
+    {
+    "name": "冯剑琳",
+    "department": "中山大学数据科学与计算机学院",
+    "email": "fengjlin@mail.sysu.edu.cn",
+    "position": "Committe"
+    },
+    {
+    "name": "高晓沨",
+    "department": "上海交通大学计算机科学与工程系",
+    "email": "gaoxiaofeng@sjtu.edu.cn",
+    "position": "Committe"
+    },
+    {
+    "name": "高云君",
+    "department": "浙江大学计算机学院",
+    "email": "gaoyj@zju.edu.cn",
+    "position": "Committe"
+    },
+    {
+    "name": "谷　峪",
+    "department": "东北大学",
+    "email": "guyu@mail.neu.edu.cn",
+    "position": "Committe"
+    },
+    {
+    "name": "顾　宁",
+    "department": "复旦大学",
+    "email": "ninggu@fudan.edu.cn",
+    "position": "Committe"
+    },
+    {
+    "name": "关佶红",
+    "department": "同济大学教授",
+    "email": "jhguan@mail.tongji.edu.cn",
+    "position": "Committe"
+    },
+    {
+    "name": "郭景峰",
+    "department": "燕山大学教授",
+    "email": "jfguo@ysu.edu.cn",
+    "position": "Committe"
+    },
+    {
+    "name": "何　军",
+    "department": "中国人民大学信息学院计算机系",
+    "email": "hejun@ruc.edu.cn",
+    "position": "Committe"
+    },
+    {
+    "name": "何震瀛",
+    "department": "复旦大学计算机科学技术学院",
+    "email": "zhenying@fudan.edu.cn",
+    "position": "Committe"
+    },
+    {
+    "name": "胡海波",
+    "department": "香港理工大学电子及资讯工程学系",
+    "email": "haibo.hu@polyu.edu.hk",
+    "position": "Committe"
+    },
+    {
+    "name": "胡乃静",
+    "department": "上海金融学院信息管理学院",
+    "email": "Njhu71@hotmail.com",
+    "position": "Committe"
+    },
+    {
+    "name": "黄冬梅",
+    "department": "上海海洋大学信息学院",
+    "email": "dmhuang@shou.edu.cn",
+    "position": "Committe"
+    },
+    {
+    "name": "黄浩",
+    "department": "武汉大学计算机学院",
+    "email": "haohuang@whu.edu.cn",
+    "position": "Committe"
+    },
+    {
+    "name": "黄健斌",
+    "department": "西安电子科技大学软件学院",
+    "email": "jbhuang@xidian.edu.cn",
+    "position": "Committe"
+    },
+    {
+    "name": "黄锦辉",
+    "department": "香港中文大学副教授",
+    "email": "kfwong@se.cuhk.edu.hk",
+    "position": "Committe"
+    },
+    {
+    "name": "嵇　晓",
+    "department": "上海宝信软件公司高级技术总监",
+    "email": "jixiao@baosight.com",
+    "position": "Committe"
+    },
+    {
+    "name": "贾　焰",
+    "department": "国防科学技术大学教授",
+    "email": "jiayanjy@vip.sina.com",
+    "position": "Committe"
+    },
+    {
+    "name": "蒋川群",
+    "department": "上海第二工业大学教授/院长",
+    "email": "cqjiang@online.sh.cn",
+    "position": "Committe"
+    },
+    {
+    "name": "金澈清",
+    "department": "华东师范大学教授",
+    "email": "cqjin@sei.ecnu.edu.cn",
+    "position": "Committe"
+    },
+    {
+    "name": "金澈清",
+    "department": "华东师范大学软件学院",
+    "email": "cqjin@sei.ecnu.edu.cn",
+    "position": "Committe"
+    },
+    {
+    "name": "金培权",
+    "department": "中国科技大学",
+    "email": "jpq@ustc.edu.cn",
+    "position": "Committe"
+    },
+    {
+    "name": "景　宁",
+    "department": "国防科学技术大学教授",
+    "email": "ningjing@nudt.edu.cn",
+    "position": "Committe"
+    },
+    {
+    "name": "乐嘉锦",
+    "department": "东华大学教授",
+    "email": "lejiajin@dhu.edu.cn",
+    "position": "Committe"
+    },
+    {
+    "name": "李　川",
+    "department": "四川大学计算机学院",
+    "email": "lcharles@scu.edu.cn",
+    "position": "Committe"
+    },
+    {
+    "name": "李　磊",
+    "department": "北京工业大数据创新中心",
+    "email": "lilei@k2data.com.cn",
+    "position": "Committe"
+    },
+    {
+    "name": "李爱萍",
+    "department": "太原理工大学计算机科学与技术学院计算机工程系主任",
+    "email": "tyutli@163.com",
+    "position": "Committe"
+    },
+    {
+    "name": "李翠平",
+    "department": "中国人民大学教授",
+    "email": "cuiping_li@263.net",
+    "position": "Committe"
+    },
+    {
+    "name": "李红燕",
+    "department": "北京大学副教授",
+    "email": "lihy@cis.pku.edu.cn",
+    "position": "Committe"
+    },
+    {
+    "name": "李建",
+    "department": "清华大学交叉信息研究院",
+    "email": "lapordge@gmail.com",
+    "position": "Committe"
+    },
+    {
+    "name": "李建中",
+    "department": "哈尔滨工业大学教授",
+    "email": "lijz@hit.edu.cn",
+    "position": "Committe"
+    },
+    {
+    "name": "李金宝",
+    "department": "黑龙江大学软件学院常务副院长",
+    "email": "jbli@hlju.edu.cn",
+    "position": "Committe"
+    },
+    {
+    "name": "李庆忠",
+    "department": "山东大学教授",
+    "email": "lqz@sdu.edu.cn",
+    "position": "Committe"
+    },
+    {
+    "name": "李荣华",
+    "department": "深圳大学计算机与软件学院",
+    "email": "rhli@szu.edu.cn",
+    "position": "Committe"
+    },
+    {
+    "name": "李盛恩",
+    "department": "山东建筑大学计算机学院",
+    "email": "lsn@sdjzu.edu.cn",
+    "position": "Committe"
+    },
+    {
+    "name": "李石君",
+    "department": "武汉大学教授/博导",
+    "email": "shjli@whu.edu.cn",
+    "position": "Committe"
+    },
+    {
+    "name": "李陶深",
+    "department": "广西大学院长",
+    "email": "tshli@gxu.edu.cn",
+    "position": "Committe"
+    },
+    {
+    "name": "李舟军",
+    "department": "北京航空航天大学教授",
+    "email": "lizj@buaa.edu.cn",
+    "position": "Committe"
+    },
+    {
+    "name": "廖国琼",
+    "department": "江西财经大学副教授",
+    "email": "liaoguoqiong@163.com",
+    "position": "Committe"
+    },
+    {
+    "name": "林子雨",
+    "department": "厦门大学计算机科学系",
+    "email": "ziyulin@xmu.edu.cn",
+    "position": "Committe"
+    },
+    {
+    "name": "刘国华",
+    "department": "燕山大学信息学院副院长",
+    "email": "ghliu@ysu.edu.cn",
+    "position": "Committe"
+    },
+    {
+    "name": "刘红岩",
+    "department": "清华大学经管学院",
+    "email": "liuhy@sem.tsinghua.edu.cn",
+    "position": "Committe"
+    },
+    {
+    "name": "刘梦赤",
+    "department": "武汉大学软件工程国家重点实验室",
+    "email": "mengchi@whu.edu.cn",
+    "position": "Committe"
+    },
+    {
+    "name": "刘奇志",
+    "department": "南京大学副教授",
+    "email": "lqz@nju.edu.cn",
+    "position": "Committe"
+    },
+    {
+    "name": "刘玉葆",
+    "department": "中山大学",
+    "email": "liuyubao@mail.sysu.edu.cn",
+    "position": "Committe"
+    },
+    {
+    "name": "卢云川",
+    "department": "南京中新赛克科技有限责任公司",
+    "email": "lu.yunchuan@sinovatio.com",
+    "position": "Committe"
+    },
+    {
+    "name": "陆慧娟",
+    "department": "中国计量大学",
+    "email": "hjlu@cjlu.edu.cn",
+    "position": "Committe"
+    },
+    {
+    "name": "骆祥峰",
+    "department": "上海大学计算机工程与科学学院",
+    "email": "xiangfeng.luo@gmail.com",
+    "position": "Committe"
+    },
+    {
+    "name": "马宗民",
+    "department": "东北大学教授",
+    "email": "mazongmin@ise.neu.edu.cn",
+    "position": "Committe"
+    },
+    {
+    "name": "孟凡荣",
+    "department": "中国矿业大学",
+    "email": "mengfr@cumt.edu.cn",
+    "position": "Committe"
+    },
+    {
+    "name": "孟小峰",
+    "department": "中国人民大学教授",
+    "email": "xfmeng@ruc.edu.cn",
+    "position": "Committe"
+    },
+    {
+    "name": "牛保宁",
+    "department": "太原理工大学计算机与软件学院",
+    "email": "niubaoning@tyut.edu.cn",
+    "position": "Committe"
+    },
+    {
+    "name": "潘海为",
+    "department": "哈尔滨工程大学",
+    "email": "Panhaiwei@hrbeu.edu.cn",
+    "position": "Committe"
+    },
+    {
+    "name": "彭朝晖",
+    "department": "山东大学",
+    "email": "pzh@sdu.edu.cn",
+    "position": "Committe"
+    },
+    {
+    "name": "彭成宝",
+    "department": "东软集团股份有限公司",
+    "email": "pengcb@neusoft.com",
+    "position": "Committe"
+    },
+    {
+    "name": "彭煜玮",
+    "department": "武汉大学",
+    "email": "ywpeng@whu.edu.cn",
+    "position": "Committe"
+    },
+    {
+    "name": "钱铁云",
+    "department": "武汉大学计算机学院",
+    "email": "qty@whu.edu.cn",
+    "position": "Committe"
+    },
+    {
+    "name": "乔少杰",
+    "department": "西南交通大学信息科学与技术学院",
+    "email": "sjqiao@swjtu.edu.cn",
+    "position": "Committe"
+    },
+    {
+    "name": "秦小麟",
+    "department": "南京航空航天大学信息安全研究所所长",
+    "email": "qinxl@nuaa.edu.cn",
+    "position": "Committe"
+    },
+    {
+    "name": "任家东",
+    "department": "燕山大学",
+    "email": "jdren@ysu.edu.cn",
+    "position": "Committe"
+    },
+    {
+    "name": "任永杰",
+    "department": "北京人大金仓信息技术股份有限公司",
+    "email": "yjren@kingbase.com.cn",
+    "position": "Committe"
+    },
+    {
+    "name": "商　烁",
+    "department": "中国石油大学教授",
+    "email": "jedi.shang@gmail.com",
+    "position": "Committe"
+    },
+    {
+    "name": "宋宝燕",
+    "department": "辽宁大学信息学院副院长",
+    "email": "bysong@lnu.edu.cn",
+    "position": "Committe"
+    },
+    {
+    "name": "孙焕良",
+    "department": "沈阳建筑大学",
+    "email": "sunhl@sjzu.edu.cn",
+    "position": "Committe"
+    },
+    {
+    "name": "孙建伶",
+    "department": "浙江大学计算机学院",
+    "email": "sunjl@zju.edu.cn",
+    "position": "Committe"
+    },
+    {
+    "name": "孙未未",
+    "department": "复旦大学计算机科学技术学院",
+    "email": "wwsun@fudan.edu.cn",
+    "position": "Committe"
+    },
+    {
+    "name": "汤　庸",
+    "department": "中山大学教授",
+    "email": "issty@mail.sysu.edu.cn",
+    "position": "Committe"
+    },
+    {
+    "name": "童咏昕",
+    "department": "北京航空航天大学",
+    "email": "yxtong@buaa.edu.cn",
+    "position": "Committe"
+    },
+    {
+    "name": "万常选",
+    "department": "江西财经大学教授",
+    "email": "wanchangxuan@263.net",
+    "position": "Committe"
+    },
+    {
+    "name": "汪　卫",
+    "department": "复旦大学教授",
+    "email": "weiwang1@fudan.edu.cn",
+    "position": "Committe"
+    },
+    {
+    "name": "王　晨",
+    "department": "清华大学、北京工业大数据创新中心",
+    "email": "wang_chen@tsinghua.edu.cn",
+    "position": "Committe"
+    },
+    {
+    "name": "王　宁",
+    "department": "北京交通大学计算机学院",
+    "email": "nwang@bjtu.edu.cn",
+    "position": "Committe"
+    },
+    {
+    "name": "王　鑫",
+    "department": "天津大学副教授",
+    "email": "wangx@tju.edu.cn",
+    "position": "Committe"
+    },
+    {
+    "name": "王朝坤",
+    "department": "清华大学软件学院",
+    "email": "chaokun@tsinghua.edu.cn",
+    "position": "Committe"
+    },
+    {
+    "name": "王建民",
+    "department": "清华大学",
+    "email": "jimwang@tsinghua.edu.cn",
+    "position": "Committe"
+    },
+    {
+    "name": "王建勇",
+    "department": "清华大学",
+    "email": "jianyong@tsinghua.edu.cn",
+    "position": "Committe"
+    },
+    {
+    "name": "王丽珍",
+    "department": "云南大学信息学院",
+    "email": "Lzhwang2005@126.com",
+    "position": "Committe"
+    },
+    {
+    "name": "王腾蛟",
+    "department": "北京大学",
+    "email": "tjwang@pku.edu.cn",
+    "position": "Committe"
+    },
+    {
+    "name": "王晓玲",
+    "department": "华东师范大学软件学院",
+    "email": "xlwang@sei.ecnu.edu.cn",
+    "position": "Committe"
+    },
+    {
+    "name": "王晓阳",
+    "department": "复旦大学计算机学院",
+    "email": "x.sean.wang@gmail.com",
+    "position": "Committe"
+    },
+    {
+    "name": "王意洁",
+    "department": "国防科技大学教授",
+    "email": "wwyyjj1971@vip.sina.com.cn",
+    "position": "Committe"
+    },
+    {
+    "name": "文继荣",
+    "department": "中国人民大学",
+    "email": "jrwen@ruc.edu.cn",
+    "position": "Committe"
+    },
+    {
+    "name": "吴胜利",
+    "department": "江苏大学计算机学院",
+    "email": "1000004032@ujs.edu.cn",
+    "position": "Committe"
+    },
+    {
+    "name": "伍　赛",
+    "department": "浙江大学",
+    "email": "wusai@zju.edu.cn",
+    "position": "Committe"
+    },
+    {
+    "name": "肖迎元",
+    "department": "天津理工大学计算机学院",
+    "email": "yyxiao@tjut.edu.cn",
+    "position": "Committe"
+    },
+    {
+    "name": "邢春晓",
+    "department": "清华大学主任",
+    "email": "xingcx@tsinghua.edu.cn",
+    "position": "Committe"
+    },
+    {
+    "name": "徐建良",
+    "department": "香港浸会大学计算机系",
+    "email": "xujl@comp.hkbu.edu.hk",
+    "position": "Committe"
+    },
+    {
+    "name": "徐俊刚",
+    "department": "中国科学院大学",
+    "email": "xujg@ucas.ac.cn",
+    "position": "Committe"
+    },
+    {
+    "name": "徐立臻",
+    "department": "东南大学教授",
+    "email": "lzxu@seu.edu.cn",
+    "position": "Committe"
+    },
+    {
+    "name": "许　嘉",
+    "department": "广西大学",
+    "email": "xujia@gxu.edu.cn",
+    "position": "Committe"
+    },
+    {
+    "name": "阳国贵",
+    "department": "国防科技大学教授",
+    "email": "ggyang@nudt.edu.cn",
+    "position": "Committe"
+    },
+    {
+    "name": "杨树强",
+    "department": "国防科学技术大学计算机学院",
+    "email": "sqyang@126.com",
+    "position": "Committe"
+    },
+    {
+    "name": "杨晓春",
+    "department": "东北大学副教授",
+    "email": "yangxc@mail.neu.edu.cn",
+    "position": "Committe"
+    },
+    {
+    "name": "姚　斌",
+    "department": "上海交通大学",
+    "email": "yaobin@cs.sjtu.edu.cn",
+    "position": "Committe"
+    },
+    {
+    "name": "印　鉴",
+    "department": "中山大学教授",
+    "email": "issjyin@mail.sysu.edu.cn",
+    "position": "Committe"
+    },
+    {
+    "name": "于　戈",
+    "department": "东北大学教授",
+    "email": "yuge@mail.neu.edu.cn",
+    "position": "Committe"
+    },
+    {
+    "name": "于　旭",
+    "department": "香港中文大学系统工程系",
+    "email": "yu@se.cuhk.edu.hk",
+    "position": "Committe"
+    },
+    {
+    "name": "余志文",
+    "department": "华南理工大学",
+    "email": "zhwyu@scut.edu.cn",
+    "position": "Committe"
+    },
+    {
+    "name": "禹晓辉",
+    "department": "山东大学教授",
+    "email": "xyu@sdu.edu.cn",
+    "position": "Committe"
+    },
+    {
+    "name": "元昌安",
+    "department": "广西师范学院书记",
+    "email": "yca@gxtc.edu.cn",
+    "position": "Committe"
+    },
+    {
+    "name": "袁　方",
+    "department": "河北大学",
+    "email": "yuanfang@hbu.cn",
+    "position": "Committe"
+    },
+    {
+    "name": "袁晓洁",
+    "department": "南开大学教授",
+    "email": "Yuanxj@nankai.edu.cn",
+    "position": "Committe"
+    },
+    {
+    "name": "岳　昆",
+    "department": "云南大学信息学院",
+    "email": "kyue@ynu.edu.cn",
+    "position": "Committe"
+    },
+    {
+    "name": "岳丽华",
+    "department": "中国科技大学教授",
+    "email": "llyue@ustc.edu.cn",
+    "position": "Committe"
+    },
+    {
+    "name": "张　俊",
+    "department": "大连海事大学信息科学技术学院",
+    "email": "zhangjun@dlmu.edu.cn",
+    "position": "Committe"
+    },
+    {
+    "name": "张　霞",
+    "department": "东大阿尔派",
+    "email": "zhangx@neusoft.com",
+    "position": "Committe"
+    },
+    {
+    "name": "张　岩",
+    "department": "北京大学信息科学技术学院",
+    "email": "zhy@cis.pku.edu.cn",
+    "position": "Committe"
+    },
+    {
+    "name": "张东祥",
+    "department": "电子科技大学",
+    "email": "zhangdo@uestc.edu.cn",
+    "position": "Committe"
+    },
+    {
+    "name": "周皓峰",
+    "department": "IBM中国软件开发中心",
+    "email": "zhouhf@cn.ibm.com",
+    "position": "Committe"
+    },
+    {
+    "name": "周水庚",
+    "department": "复旦大学教授",
+    "email": "sgzhou@fudan.edu.cn",
+    "position": "Committe"
+    },
+    {
+    "name": "邹　磊",
+    "department": "北京大学计算机科学技术研究所",
+    "email": "zoulei@pku.edu.cn",
+    "position": "Committe"
+    },
+    {
+    "name": "邹兆年",
+    "department": "哈尔滨工业大学计算机学院",
+    "email": "znzou@hit.edu.cn",
+    "position": "Committe"
     },
     #####
     {
     "name": "程　铮",
     "department": "中国工程物理研究院计算机应用研究所",
     "email": "chengz@caep.cn",
-    "position": "CommunicateCommitte",
+    "position": "CommunicateCommitte"
     },
+    {
+    "name": "崔江涛",
+    "department": "西安电子科技大学计算机学院",
+    "email": "cuijt@xidian.edu.cn",
+    "position": "CommunicateCommitte"
+    },
+    {
+    "name": "丁晓锋",
+    "department": "华中科技大学计算机学院",
+    "email": "xfding@hust.edu.cn",
+    "position": "CommunicateCommitte"
+    },
+    {
+    "name": "洪　亮",
+    "department": "武汉大学信息管理学院",
+    "email": "hong@whu.edu.cn",
+    "position": "CommunicateCommitte"
+    },
+    {
+    "name": "胡　伟",
+    "department": "南京大学",
+    "email": "whu@nju.edu.cn",
+    "position": "CommunicateCommitte"
+    },
+    {
+    "name": "赖韩江",
+    "department": "中山大学数据科学与计算机学院",
+    "email": "laihanj3@mail.sysu.edu.cn",
+    "position": "CommunicateCommitte"
+    },
+    {
+    "name": "李　辉",
+    "department": "西安电子科技大学",
+    "email": "hli@xidian.edu.cn",
+    "position": "CommunicateCommitte"
+    },
+    {
+    "name": "李剑军",
+    "department": "华中科技大学计算机学院",
+    "email": "jianjunli@hust.edu.cn",
+    "position": "CommunicateCommitte"
+    },
+    {
+    "name": "李直旭",
+    "department": "苏州大学计算机科学与技术学院",
+    "email": "Zhixuli@suda.edu.cn",
+    "position": "CommunicateCommitte"
+    },
+    {
+    "name": "梁文新",
+    "department": "大连理工大学",
+    "email": "wxliang@dlut.edu.cn",
+    "position": "CommunicateCommitte"
+    },
+    {
+    "name": "林　欣",
+    "department": "华东师范大学",
+    "email": "xlin@cs.ecnu.edu.cn",
+    "position": "CommunicateCommitte"
+    },
+    {
+    "name": "刘冠峰",
+    "department": "苏州大学计算机科学与技术学院",
+    "email": "gfliu@suda.edu.cn",
+    "position": "CommunicateCommitte"
+    },
+    {
+    "name": "卢　卫",
+    "department": "中国人民大学信息学院",
+    "email": "uqwlu@ruc.edu.cn",
+    "position": "CommunicateCommitte"
+    },
+    {
+    "name": "潘　晓",
+    "department": "石家庄铁道大学",
+    "email": "smallpx@163.com",
+    "position": "CommunicateCommitte"
+    },
+    {
+    "name": "彭敦陆",
+    "department": "上海理工大学",
+    "email": "dunlu_peng@163.com",
+    "position": "CommunicateCommitte"
+    },
+    {
+    "name": "饶洋辉",
+    "department": "中山大学数据科学与计算机学院",
+    "email": "raoyangh@mail.sysu.edu.cn",
+    "position": "CommunicateCommitte"
+    },
+    {
+    "name": "沈　玮",
+    "department": "南开大学",
+    "email": "shenwei@nankai.edu.cn",
+    "position": "CommunicateCommitte"
+    },
+    {
+    "name": "石　川",
+    "department": "北京邮电大学",
+    "email": "shichuan@bupt.edu.cn",
+    "position": "CommunicateCommitte"
+    },
+    {
+    "name": "宋　威",
+    "department": "北方工业大学计算机学院",
+    "email": "songwei@ncut.edu.cn",
+    "position": "CommunicateCommitte"
+    },
+    {
+    "name": "宋国杰",
+    "department": "北京大学",
+    "email": "gjsong@pku.edu.cn",
+    "position": "CommunicateCommitte"
+    },
+    {
+    "name": "王　浩",
+    "department": "中国科学院软件研究所",
+    "email": "cashenry@126.com",
+    "position": "CommunicateCommitte"
+    },
+    {
+    "name": "王　梅",
+    "department": "东华大学",
+    "email": "wangmei@dhu.edu.cn",
+    "position": "CommunicateCommitte"
+    },
+    {
+    "name": "王　悦",
+    "department": "中央财经大学信息学院计算机系",
+    "email": "wangyuecs@cufe.edu.cn",
+    "position": "CommunicateCommitte"
+    },
+    {
+    "name": "魏哲巍",
+    "department": "中国人民大学信息学院",
+    "email": "zhewei@ruc.edu.cn",
+    "position": "CommunicateCommitte"
+    },
+    {
+    "name": "吴英杰",
+    "department": "福州大学数学与计算机科学学院",
+    "email": "yjwu@fzu.edu.cn",
+    "position": "CommunicateCommitte"
+    },
+    {
+    "name": "向　军",
+    "department": "湖北民族学院信息工程学院",
+    "email": "xiangjes@163.com",
+    "position": "CommunicateCommitte"
+    },
+    {
+    "name": "许建秋",
+    "department": "南京航空航天大学",
+    "email": "jianqiu@nuaa.edu.cn",
+    "position": "CommunicateCommitte"
+    },
+    {
+    "name": "姚俊杰",
+    "department": "华东师范大学",
+    "email": "junjiey@gmail.com",
+    "position": "CommunicateCommitte"
+    },
+    {
+    "name": "游进国",
+    "department": "昆明理工大学",
+    "email": "jgyou@126.com",
+    "position": "CommunicateCommitte"
+    },
+    {
+    "name": "袁培森",
+    "department": "南京农业大学",
+    "email": "peiseny@njau.edu.cn",
+    "position": "CommunicateCommitte"
+    },
+    {
+    "name": "张　巨",
+    "department": "解放军战支61785部队",
+    "email": "zhangju@software.ict.ac.cn",
+    "position": "CommunicateCommitte"
+    },
+    {
+    "name": "张春英",
+    "department": "华北理工大学",
+    "email": "Hblg_zcy@126.com",
+    "position": "CommunicateCommitte"
+    },
+    {
+    "name": "张小旺",
+    "department": "天津大学",
+    "email": "xiaowangzhang@tju.edu.cn",
+    "position": "CommunicateCommitte"
+    },
+    {
+    "name": "张新宇",
+    "department": "中国人寿保险股份有限公司研发中心",
+    "email": "13801396191@139.com",
+    "position": "CommunicateCommitte"
+    },
+    {
+    "name": "张彦春",
+    "department": "复旦大学",
+    "email": "yanchun.zhang@vu.edu.au",
+    "position": "CommunicateCommitte"
+    },
+    {
+    "name": "赵　雷",
+    "department": "苏州大学计算机科学与技术学院",
+    "email": "zhaol@suda.edu.cn",
+    "position": "CommunicateCommitte"
+    },
+    {
+    "name": "周　勇",
+    "department": "中国矿业大学计算机学院",
+    "email": "yzhou@cumt.edu.cn",
+    "position": "CommunicateCommitte"
+    }
 ]
 for card in cards:
     personCards.insert(card)
